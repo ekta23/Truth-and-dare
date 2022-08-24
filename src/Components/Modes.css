@@ -1,0 +1,87 @@
+.card{
+    background-color:white;
+    width:500px;
+    height:auto;
+    border-radius: 10px;
+    margin-top: 200px;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-height: 500px;
+}
+
+
+.chotuCard{
+    background-color:white;
+    width:200px;
+    height:auto;
+    border-radius: 10px;
+    margin-top: 200px;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 3px;
+    overflow: scroll;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+h2{
+    color: #ff5f6d;
+}
+ul{
+    text-align: left;
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #ff5f6d;
+    font-weight:bold;
+    display: inline-block; 
+    width: 1em;
+    
+  }
+#addIcon{
+    height:30px;
+    width: 30px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.addPlayer{
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#submit{
+    
+    margin-top: 20px;
+    width: 150px;
+    height:40px;
+    background-color:#ff5f6d; 
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    box-sizing: content-box;
+    border-color:#ffafb6 ;
+   
+}
+
+.selectMode{
+    width:180px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#inputName{
+    
+}
+

@@ -1,0 +1,73 @@
+.card-question{
+    background-color:white;
+    width:500px;
+    height:350px;
+    border-radius: 10px;
+    margin-top: 200px;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-height: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow-y: scroll;
+    
+}
+.modeDetails{
+    color: rgb(5, 186, 126);
+    margin-top:50px;
+    margin-bottom: 20px;
+    
+}
+.endGame{
+    font-size: 15px !important;
+    width: 100px;
+    height:30px;
+    background-color:rgb(255, 70, 70); 
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    box-sizing: content-box;
+    border-color:#ff7d88 ;
+    margin-bottom: 20px;
+
+}
+.player{
+    margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.questionType{
+    color: #2e1c09a3;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.buttonDiv{
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.buttonTruth{
+    width: 150px;
+    height:40px;
+    background-color:#ff5f6d; 
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    box-sizing: content-box;
+    border-color:#ffafb6 ;
+    
+
+}
+.buttonDare{
+    width: 150px;
+    height:40px;
+    background-color:#ffb44c; 
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    box-sizing: content-box;
+    border-color:#ffafb6 ;
+    
+}
